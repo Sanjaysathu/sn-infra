@@ -31,7 +31,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="text-3xl font-bold text-foreground">
-            YUKRA
+            SN INFRA
           </div>
 
           {/* Desktop Navigation */}

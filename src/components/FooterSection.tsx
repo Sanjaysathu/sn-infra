@@ -75,7 +75,7 @@ const FooterSection = () => {
             <div>
               <h3 className="text-lg font-bold text-foreground mb-4">ABOUT COMPANY</h3>
               <div className="mb-4">
-                <h4 className="text-2xl font-bold text-foreground mb-2">YUKRA</h4>
+                <h4 className="text-2xl font-bold text-foreground mb-2">SN INFRA</h4>
                 <p className="text-sm text-muted-foreground mb-4">Projects Private Limited</p>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
@@ -132,7 +132,7 @@ const FooterSection = () => {
                 
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-sm text-muted-foreground">hello@yukra.in</span>
+                  <span className="text-sm text-muted-foreground">hello@sninfra.in</span>
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ const FooterSection = () => {
       <div className="bg-muted py-4 px-4 border-t">
         <div className="container mx-auto max-w-6xl text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 YUKRA Projects Private Limited. All rights reserved.
+            © 2024 SN INFRA Projects Private Limited. All rights reserved.
           </p>
         </div>
       </div>

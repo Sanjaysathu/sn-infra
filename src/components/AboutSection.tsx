@@ -20,11 +20,11 @@ const AboutSection = () => {
 
         {/* Three cards section */}
         <div className="grid md:grid-cols-3 gap-8">
-          {/* About Yukra Card */}
+          {/* About SN INFRA Card */}
           <Card className="border-2 hover:shadow-lg transition-shadow">
             <CardContent className="p-8">
               <h3 className="text-xl font-bold text-foreground mb-4">
-                ABOUT YUKRA
+                ABOUT SN INFRA
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Company with experience of over 30 years in the field of project management, 
@@ -62,7 +62,7 @@ const AboutSection = () => {
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Five basic values of Enterprise, Responsibility, Trust, Respect, 
-                Professionalism are held in common by all YUKRA employees at every level. 
+                Professionalism are held in common by all SN INFRA employees at every level. 
                 All our major company decisions are taken by following the core values.
               </p>
               <Button variant="link" className="p-0 text-primary hover:text-primary/80">
