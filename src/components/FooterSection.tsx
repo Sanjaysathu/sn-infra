@@ -56,7 +56,7 @@ const FooterSection = () => {
             allowFullScreen
           />
           {/* Dark overlay */}
-          <div className="absolute inset-0 bg-black/70"></div>
+          <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
