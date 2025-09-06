@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/sn-infra/",
+  base: "/",
   build: {
     assetsDir: "assets",
     rollupOptions: {
