@@ -43,12 +43,21 @@ const FooterSection = () => {
   return (
     <footer className="bg-gradient-to-b from-background to-muted">
       {/* CTA Cards Section */}
-      <section 
-        className="relative py-20 px-4 bg-cover bg-center bg-no-repeat"
-        style={{ 
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/lovable-uploads/b6c1191a-df64-4cfc-ae99-f00427cf0801.png')` 
-        }}
-      >
+      <section className="relative py-20 px-4 overflow-hidden">
+        {/* Background Video Container */}
+        <div className="absolute inset-0 w-full h-full">
+          {/* YouTube Embed as Background */}
+          <iframe
+            className="absolute top-1/2 left-1/2 w-[150%] h-[150%] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            src="https://www.youtube.com/embed/lMJXxhRFO1k?autoplay=1&mute=1&loop=1&playlist=lMJXxhRFO1k&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&fs=0&cc_load_policy=0&start=0&end=0"
+            title="Background Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/70"></div>
+        </div>
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {ctaCards.map((card, index) => (
