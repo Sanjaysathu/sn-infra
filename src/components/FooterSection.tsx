@@ -48,7 +48,8 @@ const FooterSection = () => {
         <div className="absolute inset-0 w-full h-full">
           {/* YouTube Embed as Background */}
           <iframe
-            className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none scale-150"
+            className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            style={{ transform: 'translate(-50%, -50%) scale(1.5)' }}
             src="https://www.youtube.com/embed/lMJXxhRFO1k?autoplay=1&mute=1&loop=1&playlist=lMJXxhRFO1k&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&fs=0&cc_load_policy=0&start=0&end=0"
             title="Background Video"
             frameBorder="0"
